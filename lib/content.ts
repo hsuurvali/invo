@@ -7,7 +7,7 @@ export const pricing = [
 ];
 export const pages: Record<string, Page> = {
   'lahendused': { eyebrow: 'Lahendused', title: 'Arveldamine ühes töövoos.', description: 'INVO toob arved, kliendid ja korduvad tegevused ühte selgesse vaatesse.', points: ['Müügi- ja ostuarved', 'Lepingupõhine arveldamine', 'Kinnitused ja ülevaated'] },
-  'lahendused/muegiarved': { eyebrow: 'Müügiarved', title: 'Arve koostamisest laekumiseni.', description: 'Koosta selged müügiarved ja jälgi nende olekut ühest kohast.', points: ['Arve read ja käibemaks', 'PDF ja arve ajalugu', 'Laekumiste jälgimine'] },
+  'lahendused/muegiarved': { eyebrow: 'Müügiarved', title: 'Müügiarved, millest on lihtne aru saada.', description: 'Ühekordsed, korduvad, ettemaksu- ja kreeditarved selges töövoos. Vaata INVO logoga näidisarvet.', points: ['Arveliigid ja töövoog', 'INVO logoga näidisarve', 'Laekumiste ülevaade'] },
   'lahendused/ostuarved': { eyebrow: 'Ostuarved', title: 'Ostuarved kontrolli alla.', description: 'Kogu tarnijate arved ja kinnitused ühte töövoogu.', points: ['Tarnijate ülevaade', 'Kinnitamise töövoog', 'Dokumentide arhiiv'] },
   'lahendused/e-arved': { eyebrow: 'E-arved', title: 'E-arved ilma segaduseta.', description: 'Valmistu struktureeritud arvelduseks. Saatmine vajab päris teenusepakkuja ühendust.', points: ['Valideerimise alus', 'Operaatori ühendamise koht', 'Selge tarneolek'] },
   'lahendused/korduv-arveldus': { eyebrow: 'Automatiseerimine', title: 'Korduvad arved õigel ajal.', description: 'Kavanda püsivaid arveldusperioode ja vähenda käsitööd.', points: ['Kuu, kvartal või aasta', 'Lepinguga seotud arved', 'Kontrollitav ajalugu'] },
